@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  
+  --color-brand-50: #f0f7ff;
+  --color-brand-100: #e0effe;
+  --color-brand-200: #d1e5fd;
+  --color-brand-300: #a3cffa;
+  --color-brand-500: #0084ff;
+  --color-brand-600: #007aff;
+  --color-brand-700: #0062cc;
+  --color-brand-800: #004fb3;
+  --color-brand-900: #003780;
+  
+  --color-ink: #1c1c1e;
+  --color-gray-apple-100: #f2f2f7;
+  --color-gray-apple-400: #8e8e93;
+}
+
+/* Custom scrollbars for a cleaner visual layout */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f2f2f7; /* Apple gray-100 baseline canvas background */
+  color: #1c1c1e; /* Apple ink primary text */
+}
+
+/* General button states, badge configurations, and card classes aligned with Apple design rules */
+.kpi-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.ledger-container {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+

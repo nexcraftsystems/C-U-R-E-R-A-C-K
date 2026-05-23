@@ -1,0 +1,6 @@
+{
+  "name": "CureRack.my",
+  "description": "An easy-to-use platform to order prescription refills, book klinik collections, and track medical pickups in Malaysia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
